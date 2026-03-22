@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(135deg, #5a9df9, rgb(20, 91, 146));
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+.about-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    margin-bottom: 1.5rem;
+}
+
+.content h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    color: rgb(20, 91, 146);
+}
+
+.content p, .content ul {
+    margin: 0.5rem 0 0;
+}
+
+.content ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: rgb(20, 91, 146);
+    color: white;
+    position: relative;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
